@@ -1,0 +1,40 @@
+.category {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 25px;
+    margin-top: 50px;
+
+}
+
+.c-title {
+    font-family: 'Manrope';
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    /* identical to box height */
+
+
+    /* Dark 01 */
+
+    color: #1A1919;
+}
+
+.c-info {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+
+    /* Dark 03 */
+
+    color: #757575;
+}
