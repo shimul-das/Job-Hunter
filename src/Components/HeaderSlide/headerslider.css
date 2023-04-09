@@ -1,0 +1,53 @@
+.header-slider {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    padding-top: -30px;
+    /* or 125% */
+
+
+    /* Dark 01 */
+
+    color: #1A1919;
+}
+.slider-title-span{
+    color:  #7E90FE;
+}
+
+.slider-desc{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+
+/* Dark 03 */
+
+color: #757575;
+}
+.slider-btn{
+    width: 172px;
+height: 65px;
+left: 300px;
+top: 698px;
+
+/* Linear */
+
+background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+border-radius: 8px;
+color: white;
+}
