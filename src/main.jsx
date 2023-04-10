@@ -17,6 +17,11 @@ import HomeMain from './Components/HomeMain/HomeMain';
 import Statistics from './Components/Statistics/Statistics';
 import Blog from './Components/Blog/Blog';
 import Error from './Components/error/error';
+import Jobdetails from './Components/Jobdetails/Jobdetails';
+import jobs from './../public/jobs.json';
+import FetchUserData from './Components/FetchUserData/FetchUserData';
+import jobs1 from './Components/Jobs/Jobs.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -26,6 +31,7 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<HomeMain></HomeMain>
+
       },
       {
         path:'Statistics',
@@ -35,6 +41,22 @@ const router = createBrowserRouter([
         path:'blog',
         element:<Blog></Blog>
       },
+      {
+        path: '/job/:jobId',
+        element: <Jobdetails></Jobdetails>,
+        loader:()=>fetch('/src/jobs.json ')
+      },   
+      // {
+      //   path: 'job/:jobId',
+      //   element: <Jobdetails />,
+      //   loader: async ({ params }) => {
+      //     const response = await fetch('/src/jobs.json');
+      //     const data = await response.json();
+      //     const job = data.find(job => job.id === params.jobId);
+      //     return job;
+      //   }
+      // },  
+                   
       {
         path:'checkout',
         element:<Checkout></Checkout>
