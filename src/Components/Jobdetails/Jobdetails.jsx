@@ -7,9 +7,8 @@ const Jobdetails = () => {
 const data=useLoaderData();
 const { jobId } = useParams();
 console.log(data);
-
-  const job=data.find(a=>a.id==jobId)
-  console.log(job)
+const job=data.find(a=>a.id==jobId)
+console.log(job)
 
 
 //console.log(jobId)
@@ -25,10 +24,24 @@ console.log(data);
 
 // const job = jobsData.find(job => job.id === jobId);
 // console.log(job);
+
+
+  const handleAddtoApplied = () => {
+    const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
+    if (!appliedJobs.includes(job.id)) {
+      const updatedAppliedJobs = [...appliedJobs, job.id];
+      localStorage.setItem('appliedJobs', JSON.stringify(updatedAppliedJobs));
+      alert('Job applied successfully!');
+    } else {
+      alert('You have already applied for this job.');
+    }
+  };
+
 return (
 <div>
   <h2>Jobdetails:{job.id}</h2>
   <p>{job.job_title}</p>
+  <button onClick={()=>handleAddtoApplied(job)} >Apply Now</button>
 </div>
 )
 }
@@ -36,3 +49,5 @@ return (
 export default Jobdetails
 
 ///////////////
+
+

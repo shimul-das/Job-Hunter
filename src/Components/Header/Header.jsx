@@ -10,7 +10,7 @@ const Header = () => {
         <div className='h_link'>
         <a href='/'>Home</a>
         <a href='/Statistics'>Statistics</a>
-        <a href='/inventory'>Applied Jobs</a>
+        <a href='/applied'>Applied Jobs</a>
         <a href='/Blog'>Blog</a>
         </div>
         <button className='header-btn'>Start Applying</button>

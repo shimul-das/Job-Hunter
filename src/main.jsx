@@ -21,6 +21,7 @@ import Jobdetails from './Components/Jobdetails/Jobdetails';
 import jobs from './../public/jobs.json';
 import FetchUserData from './Components/FetchUserData/FetchUserData';
 import jobs1 from './Components/Jobs/Jobs.jsx';
+import Applied from './Components/Applied/Applied';
 
 
 const router = createBrowserRouter([
@@ -58,8 +59,9 @@ const router = createBrowserRouter([
       // },  
                    
       {
-        path:'checkout',
-        element:<Checkout></Checkout>
+        path:'applied',
+        element:<Applied></Applied>,
+        loader:()=>fetch('/src/jobs.json ')
       },
       {
         path:'*',
