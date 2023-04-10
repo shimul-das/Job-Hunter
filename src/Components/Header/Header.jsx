@@ -9,9 +9,9 @@ const Header = () => {
         <h2 className='header-title'>Job Hunter</h2>
         <div className='h_link'>
         <a href='/'>Home</a>
-        <a href='/orders'>Statistics</a>
+        <a href='/Statistics'>Statistics</a>
         <a href='/inventory'>Applied Jobs</a>
-        <a href='/login'>Blog</a>
+        <a href='/Blog'>Blog</a>
         </div>
         <button className='header-btn'>Start Applying</button>
         
