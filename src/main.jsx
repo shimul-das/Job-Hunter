@@ -16,6 +16,7 @@ import Checkout from './Components/Checkout/Checkout';
 import HomeMain from './Components/HomeMain/HomeMain';
 import Statistics from './Components/Statistics/Statistics';
 import Blog from './Components/Blog/Blog';
+import Error from './Components/error/error';
 
 const router = createBrowserRouter([
   {
@@ -39,8 +40,8 @@ const router = createBrowserRouter([
         element:<Checkout></Checkout>
       },
       {
-        path:'login',
-        element:<Login></Login>
+        path:'*',
+        element:<Error></Error>
       }
     ]
   },
