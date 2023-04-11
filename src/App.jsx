@@ -7,7 +7,7 @@ import Shop from './Components/Shop/Shop'
 
 function App() {
   const [count, setCount] = useState(0)
-
+//main
   return (
     <div className="App">
       <Header></Header>
