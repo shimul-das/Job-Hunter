@@ -1,25 +1,25 @@
 [
     {
         "id": "1",
-        "category_logo": "./../src/assets/Category Images/bars.png",
+        "category_logo": "/bars.png",
         "category_name": "Account & Finance",
         "job_available": 400
     },
     {
         "id": "2",
-        "category_logo": "./../src/assets/Category Images/business.png",
+        "category_logo": "/business.png",
         "category_name": "Creative Design",
         "job_available": 200
     },
     {
         "id": "3",
-        "category_logo": "./../src/assets/Category Images/social-media.png",
+        "category_logo": "/social-media.png",
         "category_name": "Marketing & Sales",
         "job_available": 100
     },
     {
         "id": "4",
-        "category_logo": "./../src/assets/Category Images/worker.png",
+        "category_logo": "/worker.png",
         "category_name": "Engineering Job",
         "job_available": 300
     }

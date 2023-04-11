@@ -48,3 +48,23 @@
     top: 50px;
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      padding: 10px;
+    }
+    
+    .h_link {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    
+    .header-btn {
+        display: none;
+    }
+  }
+  
+  
+  
+

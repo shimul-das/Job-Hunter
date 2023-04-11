@@ -73,3 +73,84 @@ button delete
     background-color: #95A0A7;
     margin: 7px;
 }
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    .applied-container {
+      padding: 30px 10px;
+    }
+    .sliderfor-applied {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    .sliderfor-applied h1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .filter-buttons {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+    }
+    .filter-buttons button {
+      font-size: 1rem;
+    }
+    .container {
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .review-item {
+      width: 100%;
+      max-width: 350px;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+    .review-item img {
+      width: 80%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .review-details {
+      width: 100%;
+      text-align: center;
+    }
+    .product-title,
+    .job-title,
+    .company_name,
+    .remote_time,
+    .icon {
+      margin: 0;
+    }
+    .job-title {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+    .company_name {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    .remote_time {
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+    }
+    .icon {
+      font-size: 0.8rem;
+    }
+    .icon span {
+      margin-left: 5px;
+    }
+    .applied-btn {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  
