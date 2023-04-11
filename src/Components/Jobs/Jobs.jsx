@@ -23,6 +23,7 @@
 ////////////////////////////
 import React, { useEffect, useState } from 'react';
 import Job from '../Job/Job';
+import './jobs.css'
 
 const Jobs = () => {
   const [jobs, setJobs] = useState([]);
@@ -30,7 +31,7 @@ const Jobs = () => {
   const [limit, setLimit] = useState(4); // add a state variable for the limit
 
   useEffect(() => {
-    fetch('jobs.json')
+    fetch('/src/jobs.json')
       .then(res => res.json())
       .then(data => setJobs(data));
   }, []);
@@ -42,12 +43,16 @@ const Jobs = () => {
 
   return (
     <div>
+      <div className='job-container'>
       {jobs.slice(0, limit).map(job => ( // use slice with the limit
         <Job key={job.id} job={job} />
       ))}
+      </div>
+      <div>
       {!showAll && (
         <button onClick={handleSeeAll}>See all</button>
       )}
+      </div>
     </div>
   );
 };

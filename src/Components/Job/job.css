@@ -1,0 +1,81 @@
+.jobDetail-container {
+    /* display: grid;
+    grid-template-columns:auto auto auto;
+    gap: 0px;
+    background-color: antiquewhite; */
+    background-color: whitesmoke;
+    height: 392px;
+    padding: 30px;
+    border: 1px solid lightblue;
+}
+
+.jobDetail-container img {
+    width: 120px;
+    height: 40px;
+}
+
+.job-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    /* Dark 02 */
+
+    color: #474747;
+}
+
+.company_name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+
+    /* Dark 03 */
+
+    color: #757575;
+
+}
+
+.fulltime_or_parttime , .fulltime_or_parttime {
+    padding: 7px;
+    border: 1px solid #7E90FE;
+    color: #7E90FE;
+    margin: 5px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+.location{
+    margin-left: 5px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+/* Dark 03 */
+
+color: #757575;
+
+}
+.dollar-icon{
+    padding-left: 10px;
+}
+.dollar{
+    margin-left: 5px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #757575;
+}

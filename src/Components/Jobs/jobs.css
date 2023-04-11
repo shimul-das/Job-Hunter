@@ -1,0 +1,12 @@
+.job-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.location_i{
+    height: 24px;
+    width: 24px;
+}
