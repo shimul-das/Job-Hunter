@@ -18,9 +18,9 @@ const Job = ({job}) => {
       <img src={company_logo} alt="" />
       <h2 className='job-title'>{job_title}</h2>
       <p className='company_name'>{company_name}</p>
-      <p><span className='fulltime_or_parttime'>{remote_or_onsite}</span> <span className='fulltime_or_parttime'>{fulltime_or_parttime}</span></p>
-      <p><FontAwesomeIcon icon={faLocationDot}  /><span className='location'>{location}</span> <FontAwesomeIcon className='dollar-icon' icon={faDollar }  /><span className='dollar'>{salary}</span></p>
-      <button> <Link to={`/job/${id}`}>Shome details about me</Link> </button>
+      <p className='remote_time'><span className='fulltime_or_parttime'>{remote_or_onsite}</span> <span className='fulltime_or_parttime'>{fulltime_or_parttime}</span></p>
+      <p className='icon'><FontAwesomeIcon icon={faLocationDot}  /><span className='location'>{location}</span> <FontAwesomeIcon className='dollar-icon' icon={faDollar }  /><span className='dollar'>{salary}</span></p>
+      <button className='job-btn'> <Link className='link' to={`/job/${id}`}>View Details</Link> </button>
     </div>
 
   )

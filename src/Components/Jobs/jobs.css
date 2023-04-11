@@ -6,7 +6,20 @@
     margin-left: 100px;
     margin-right: 100px;
 }
-.location_i{
-    height: 24px;
-    width: 24px;
+.showall-btn{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.main-btn{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
 }

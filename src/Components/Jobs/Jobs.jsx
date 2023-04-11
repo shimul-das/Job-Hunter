@@ -48,9 +48,9 @@ const Jobs = () => {
         <Job key={job.id} job={job} />
       ))}
       </div>
-      <div>
+      <div className='showall-btn'>
       {!showAll && (
-        <button onClick={handleSeeAll}>See all</button>
+        <button className='main-btn' onClick={handleSeeAll}>See all Jobs</button>
       )}
       </div>
     </div>

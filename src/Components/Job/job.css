@@ -4,8 +4,8 @@
     gap: 0px;
     background-color: antiquewhite; */
     background-color: whitesmoke;
-    height: 392px;
-    padding: 30px;
+    height: 350px;
+    padding: 40px;
     border: 1px solid lightblue;
 }
 
@@ -41,7 +41,8 @@
 
 }
 
-.fulltime_or_parttime , .fulltime_or_parttime {
+.fulltime_or_parttime,
+.fulltime_or_parttime {
     padding: 7px;
     border: 1px solid #7E90FE;
     color: #7E90FE;
@@ -53,23 +54,26 @@
     line-height: 22px;
 
 }
-.location{
+
+.location {
     margin-left: 5px;
     font-family: 'Manrope';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 27px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
 
-/* Dark 03 */
+    /* Dark 03 */
 
-color: #757575;
+    color: #757575;
 
 }
-.dollar-icon{
+
+.dollar-icon {
     padding-left: 10px;
 }
-.dollar{
+
+.dollar {
     margin-left: 5px;
     font-family: 'Manrope';
     font-style: normal;
@@ -78,4 +82,30 @@ color: #757575;
     line-height: 27px;
 
     color: #757575;
+}
+
+.job-btn {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    margin-top: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.link:hover{
+    color: yellow;
+}
+.remote_time{
+    margin-top: 10px;
+}
+.icon{
+    margin-top: 20px;
 }
