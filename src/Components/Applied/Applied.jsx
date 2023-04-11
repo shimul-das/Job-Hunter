@@ -21,6 +21,7 @@
 //////////////////////////////
 import React from 'react'
 import { useLoaderData } from 'react-router-dom';
+import './applied.css'
 
 const Applied = () => {
   const data1 = useLoaderData();
@@ -31,7 +32,10 @@ const Applied = () => {
 
   return (
     <div>
+      <div className='sliderfor-applied'>
       <h1>Applied Jobs</h1>
+      </div>
+      
       <ul>
         {appliedJobs.map(job => (
           <li key={job.id}>

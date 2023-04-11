@@ -1,0 +1,129 @@
+.jobdetails-container{
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    padding: 50px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+}
+.jobdetails-title{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height */
+
+
+/* Dark 01 */
+
+color: #1A1919;
+
+}
+.jobdetails-maincontainer{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.main-left{
+    width: 70%;
+    background-color: #F4F4F4;;
+    padding: 20px;
+}
+.main-right{
+    width: 30%;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.title{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 32px;
+/* or 200% */
+
+
+/* Dark 01 */
+
+color: #1A1919;
+
+}
+
+.text{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* or 200% */
+
+
+/* Dark 03 */
+
+color: #757575;
+}
+
+.p-tag{
+    margin: 10px;
+}
+
+.right-jobdetails{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+
+/* Dark 01 */
+
+color: #1A1919;
+}
+
+.hr{
+   border-bottom: #1A1919;
+}
+
+.icon-jd{
+    padding-right: 5px;
+}
+.salary{
+    padding-right: 5px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+/* Dark 02 */
+
+color: #474747;
+
+}
+.jobdetail-variable{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+
+/* Dark 03 */
+
+color: #757575;
+}
+
+.slider-btn1{
+/* Linear */
+
+background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+border-radius: 8px;
+color: white;
+padding: 15px;
+width: 100%;
+}
