@@ -44,7 +44,7 @@ console.log(job)
 return (
 <div>
   <div className='jobdetails-container'>
-  <h2 className='jobdetails-title'>Jobd Details</h2>
+  <h2 className='jobdetails-title'>Job Details</h2>
   </div>
   <div className='jobdetails-maincontainer'>
     <div className='main-left'>

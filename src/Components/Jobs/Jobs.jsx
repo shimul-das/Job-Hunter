@@ -43,6 +43,8 @@ const Jobs = () => {
 
   return (
     <div>
+      <h1 className='c-title'>Featured Jobs</h1>
+        <p className='c-info'>Explore thousands of job opportunities with all the information you need. Its your future</p>
       <div className='job-container'>
       {jobs.slice(0, limit).map(job => ( // use slice with the limit
         <Job key={job.id} job={job} />

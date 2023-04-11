@@ -1,8 +1,75 @@
-.sliderfor-applied{
+.sliderfor-applied {
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
     padding: 50px;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
     margin-top: 20px;
+}
+
+
+.review-item {
+    display: flex;
+    width: 60%;
+    height: 300px;
+    border: 1px solid #95A0A7;
+    border-radius: 10px;
+    margin: 20px;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.review-item img {
+    width: 180px;
+    height: 180px;
+    padding: 8px;
+}
+
+.review-details {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.review-details p {
+    margin: 0 15px;
+}
+
+.review-item .product-title {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+}
+
+.orange-text {
+    color: orange;
+}
+
+/*
+button delete
+*/
+.applied-btn {
+    margin: 10px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: white;
+    padding: 15px;
+}
+.c1{
+    padding: 10px;
+}
+
+.p1{
+    padding: 10px;
+}
+.i1{
+    padding: 10px;
+}
+.filter-buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+.f-b{
+    background-color: #95A0A7;
+    margin: 7px;
 }
