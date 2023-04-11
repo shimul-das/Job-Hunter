@@ -31,7 +31,7 @@ const Jobs = () => {
   const [limit, setLimit] = useState(4); // add a state variable for the limit
 
   useEffect(() => {
-    fetch('/src/jobs.json')
+    fetch('/jobs.json')
       .then(res => res.json())
       .then(data => setJobs(data));
   }, []);

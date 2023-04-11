@@ -1,111 +1,111 @@
 [
-    {
-      "id": 1,
-      "company_logo": "https://example.com/company1_logo.png",
-      "job_title": "Software Engineer",
-      "company_name": "ABC Inc.",
-      "remote_or_onsite": "Remote",
-      "location": "New York, NY",
-      "fulltime_or_parttime": "Full-time",
-      "salary": "$100,000 - $120,000",
-      "job_description": "We are looking for a talented software engineer to join our team.",
-      "job_responsibility": "Develop new features for our software product",
-      "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
-      "experiences": "3+ years of experience in software engineering",
-      "contact_information": {
-        "phone": "(555) 555-5851",
-        "email": "jobs1@abcinc.com"
+  {
+    "id": 1,
+    "company_logo": "https://logowik.com/content/uploads/images/833_ebay.jpg",
+    "job_title": "Software Engineer",
+    "company_name": "ABC Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We are looking for a talented software engineer to join our team.",
+    "job_responsibility": "Develop new features for our software product",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software engineering",
+    "contact_information": {
+      "phone": "(555) 555-5551",
+      "email": "job1@abcinc.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "https://logowik.com/content/uploads/images/tesla.jpg",
+    "job_title": "Marketing Manager",
+    "company_name": "XYZ Corp.",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$120,000 - $140,000",
+    "job_description": "We are seeking a talented marketing manager to lead our team.",
+    "job_responsibility": "Develop and execute marketing campaigns",
+    "educational_requirements": "Bachelor's or Master's degree in Marketing or related field",
+    "experiences": "5+ years of experience in marketing",
+    "contact_information": {
+      "phone": "(555) 555-5552",
+      "email": "job2@xyzcorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "https://logowik.com/content/uploads/images/amazon-black3184.jpg",
+    "job_title": "Sales Representative",
+    "company_name": "123 LLC",
+    "remote_or_onsite": "Remote",
+    "location": "Austin, TX",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are looking for an experienced sales representative to join our team.",
+    "job_responsibility": "Generate new leads and close sales",
+    "educational_requirements": "Bachelor's degree in Business or related field",
+    "experiences": "2+ years of experience in sales",
+    "contact_information": {
+      "phone": "(555) 555-5553",
+      "email": "job3@123llc.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "https://img.freepik.com/free-vector/creative-data-logo-template_23-2149213540.jpg",
+    "job_title": "Graphic Designer",
+    "company_name": "DEF Designs",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$40,000 - $60,000",
+    "job_description": "We are seeking a talented graphic designer to work on a part-time basis.",
+    "job_responsibility": "Design graphics for our clients",
+    "educational_requirements": "Associate's or Bachelor's degree in Graphic Design or related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contact_information": {
+        "phone": "(555) 555-5554",
+        "email": "job4@123llc.com"
       }
     },
-    {
-      "id": 2,
-      "company_logo": "https://example.com/company2_logo.png",
-      "job_title": "Marketing Manager",
-      "company_name": "XYZ Corp.",
-      "remote_or_onsite": "Onsite",
-      "location": "San Francisco, CA",
-      "fulltime_or_parttime": "Full-time",
-      "salary": "$120,000 - $140,000",
-      "job_description": "We are seeking a talented marketing manager to lead our team.",
-      "job_responsibility": "Develop and execute marketing campaigns",
-      "educational_requirements": "Bachelor's or Master's degree in Marketing or related field",
-      "experiences": "5+ years of experience in marketing",
-      "contact_information": {
-        "phone": "(555) 555-5852",
-        "email": "jobs2@xyzcorp.com"
+  {
+    "id": 5,
+    "company_logo": "https://img.freepik.com/free-vector/gradient-tc-logo-template_23-2149460414.jpg",
+    "job_title": "UI/UX Designer",
+    "company_name": "DEF Designs",
+    "remote_or_onsite": "Onsite",
+    "location": "Mountain View, AR",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$50,000 - $80,000",
+    "job_description": "We are seeking a talented graphic designer to work on a part-time basis.",
+    "job_responsibility": "Design graphics for our clients",
+    "educational_requirements": "Associate's or Bachelor's degree in Graphic Design or related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contact_information": {
+        "phone": "(555) 555-5555",
+        "email": "job5@123llc.com"
       }
     },
-    {
-      "id": 3,
-      "company_logo": "https://example.com/company3_logo.png",
-      "job_title": "Sales Representative",
-      "company_name": "123 LLC",
-      "remote_or_onsite": "Remote",
-      "location": "Austin, TX",
-      "fulltime_or_parttime": "Full-time",
-      "salary": "$80,000 - $100,000",
-      "job_description": "We are looking for an experienced sales representative to join our team.",
-      "job_responsibility": "Generate new leads and close sales",
-      "educational_requirements": "Bachelor's degree in Business or related field",
-      "experiences": "2+ years of experience in sales",
-      "contact_information": {
-        "phone": "(555) 555-5853",
-        "email": "jobs3@123llc.com"
+  {
+    "id": 6,
+    "company_logo": "https://img.freepik.com/free-vector/futuristic-kb-technology-logo_23-2149109515.jpg",
+    "job_title": "Graphic Designer",
+    "company_name": "DEFCE Designs",
+    "remote_or_onsite": "Onsite",
+    "location": "Lafayette, IN",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$45,000 - $70,000",
+    "job_description": "We are seeking a talented graphic designer to work on a part-time basis.",
+    "job_responsibility": "Design graphics for our clients",
+    "educational_requirements": "Associate's or Bachelor's degree in Graphic Design or related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contact_information": {
+        "phone": "(555) 555-5556",
+        "email": "job6@123llc.com"
       }
-    },
-    {
-      "id": 4,
-      "company_logo": "https://example.com/company4_logo.png",
-      "job_title": "Graphic Designer",
-      "company_name": "DEF Designs",
-      "remote_or_onsite": "Onsite",
-      "location": "Los Angeles, CA",
-      "fulltime_or_parttime": "Part-time",
-      "salary": "$40,000 - $60,000",
-      "job_description": "We are seeking a talented graphic designer to work on a part-time basis.",
-      "job_responsibility": "Design graphics for our clients",
-      "educational_requirements": "Associate's or Bachelor's degree in Graphic Design or related field",
-      "experiences": "2+ years of experience in graphic design",
-      "contact_information": {
-          "phone": "(555) 555-5854",
-          "email": "jobs4@123llc.com"
-        }
-      },
-    {
-      "id": 5,
-      "company_logo": "https://example.com/company4_logo.png",
-      "job_title": "Graphic Designer",
-      "company_name": "DEF Designs",
-      "remote_or_onsite": "Onsite",
-      "location": "Los Angeles, CA",
-      "fulltime_or_parttime": "Part-time",
-      "salary": "$40,000 - $60,000",
-      "job_description": "We are seeking a talented graphic designer to work on a part-time basis.",
-      "job_responsibility": "Design graphics for our clients",
-      "educational_requirements": "Associate's or Bachelor's degree in Graphic Design or related field",
-      "experiences": "2+ years of experience in graphic design",
-      "contact_information": {
-          "phone": "(555) 555-5855",
-          "email": "jobs5@123llc.com"
-        }
-      },
-    {
-      "id": 6,
-      "company_logo": "https://example.com/company4_logo.png",
-      "job_title": "Graphic Designer",
-      "company_name": "DEF Designs",
-      "remote_or_onsite": "Onsite",
-      "location": "Los Angeles, CA",
-      "fulltime_or_parttime": "Part-time",
-      "salary": "$40,000 - $60,000",
-      "job_description": "We are seeking a talented graphic designer to work on a part-time basis.",
-      "job_responsibility": "Design graphics for our clients",
-      "educational_requirements": "Associate's or Bachelor's degree in Graphic Design or related field",
-      "experiences": "2+ years of experience in graphic design",
-      "contact_information": {
-          "phone": "(555) 555-5856",
-          "email": "jobs6@123llc.com"
-        }
-      }
-    
-  ]
+    }
+  
+]
