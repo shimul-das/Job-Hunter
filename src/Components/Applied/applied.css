@@ -44,6 +44,13 @@
 .orange-text {
     color: orange;
 }
+.not-applied{
+  background-color: #95A0A7;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: aquamarine;
+}
 
 /*
 button delete
