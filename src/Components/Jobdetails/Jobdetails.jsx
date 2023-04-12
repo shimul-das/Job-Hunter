@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { useLoaderData } from 'react-router-dom'
 import job_d from './../../../public/jobs.json';
+import { toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocation, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faDollar,faHouse,faPhone,faEnvelope, } from '@fortawesome/free-solid-svg-icons'
@@ -30,16 +33,17 @@ console.log(job)
 // console.log(job);
 
 
-  const handleAddtoApplied = () => {
-    const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
-    if (!appliedJobs.includes(job.id)) {
-      const updatedAppliedJobs = [...appliedJobs, job.id];
-      localStorage.setItem('appliedJobs', JSON.stringify(updatedAppliedJobs));
-      alert('Job applied successfully!');
-    } else {
-      alert('You have already applied for this job.');
-    }
-  };
+const handleAddtoApplied = () => {
+  const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
+  if (!appliedJobs.includes(job.id)) {
+    const updatedAppliedJobs = [...appliedJobs, job.id];
+    localStorage.setItem('appliedJobs', JSON.stringify(updatedAppliedJobs));
+    toast.success('Job applied successfully!');
+  } else {
+    toast.error('You have already applied for this job.');
+  }
+};
+
 
 return (
 <div>
@@ -66,7 +70,7 @@ return (
      <p className='remote_time'><FontAwesomeIcon className='icon-jd' icon={faEnvelope} style={{color: "#6482b4",}}/><span className='salary'>Email :</span><span className='jobdetail-variable'>{job.contact_information.email}</span></p>
      <p className='remote_time'><FontAwesomeIcon className='icon-jd' icon={faLocation} style={{color: "#6482b4",}}/><span className='salary'>Address :</span><span className='jobdetail-variable'>{job.location}</span></p>
      <button className='slider-btn1' onClick={()=>handleAddtoApplied(job)} >Apply Now</button>
-    
+     <ToastContainer />
     </div>
 
   </div>
